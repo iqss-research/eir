@@ -1,0 +1,23 @@
+cens1910                Black literacy in 1910
+fultongen               Voter transitions
+hisp                    Hispanic votes
+in90                    Marion County, Indiana blac vote turnout
+kyck88                  Black registration in Kentucky
+lavoteall               Turnout by race in Lousiana                 
+matproII                Voter registratin by race
+                        in southern states
+nj                      Nonminority turnout in New Jersey
+pa90                    1990 Pennsylvania gubernatorial election
+sample2                 Sample data set for black, democratic votes
+                        to be used for ei2
+sample                  Sample data for black votes
+scsp                    Poverty status by gender 
+ei                      Main procedure ei for two-way tables
+ei2                     Main procedure for many-way tables
+                        Not written yet
+summary.ei              Return quantities of interest from the 
+                        results of running ei
+plot.ei                 Plot quantities of interest from the 
+                        results of ei
+eigraph                 Same as plot.ei
+user.prompt             Pause in demo files
