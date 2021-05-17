@@ -1,0 +1,49 @@
+
+R version 2.11.1 (2010-05-31)
+Copyright (C) 2010 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> getwd() -> wd
+> 
+> #
+> message("making directory")
+making directory
+> dir.create(file.path(wd,"Rd"))
+> 
+> 
+> message(paste("working directory =", wd))
+working directory = /nfs/home/K/king/c/ei/ei/inst/doc
+> 
+> setwd(file.path(R.home(),"share/texmf"))
+> 
+> file.copy(dir(), file.path(wd,"Rd"),TRUE)
+[1] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE
+> 
+> setwd(file.path(wd,"../../man"))
+> 
+> message("Copying Rd files")
+Copying Rd files
+> file.copy(dir(pattern="\\.Rd$"), file.path(wd,"Rd"), TRUE)
+[1] TRUE TRUE TRUE TRUE
+> 
+> message("Copying .sty files")
+Copying .sty files
+> #file.copy(dir(pattern="\\.sty$"), file.path(wd,"Rd"), TRUE)
+> q("no")
+> proc.time()
+   user  system elapsed 
+  0.310   0.034   0.407 

@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>EI Software Website</title>
+<script language='Javascript' src='/gking.js'></script></HEAD>
+
+<BODY><script language="Javascript">displayHeader()</script>
+
+<h1>EI: A(n R) Program for Ecological Inference</h1>
+
+<a href="/">Gary King</a>
+<br /><br />
+<!-- rbuild: replace 'Version:' '</b>' version -->
+<b>Version:0.041</b>
+
+<p style="float:left; width: 160; margin: 1.5em;"> <img 
+src="./sei.gif" width="150" /> <br /><small><em>A Solution to the
+Ecological Inference Problem</em> Princeton University
+Press</small></p>
+
+<p>This program provides a method of inferring individual behavior
+from aggregate data. It implements the statistical procedures,
+diagnostics, and graphics from the book A Solution to the Ecological
+Inference Problem: Reconstructing Individual Behavior from Aggregate
+Data (Princeton: Princeton University Press, 1997), by Gary King.
+</p>
+  
+<ul> 
+  <li>EI for R:</li>
+      <ul>      
+	<li>To install, sign on to R, and type:
+	    install.packages("ei",repos="http://gking.harvard.edu")  or 
+	    <!-- rbuild: replace 'ei_' '.tar.gz' version -->
+	    <a href="/src/contrib/ei_2.4-6.tar.gz">download this file</a> and
+	    install yourself.</li>
+
+	<li>For documentation, from R, type library(cem), and then ?ei,
+	    or download <a href="docs/ei.pdf">PDF</a></li>
+      </ul>
+      
+  <li>EI for Gauss:  <a href="/ei">Click here</a></li>
+    
+<li>Please send ALL questions, bugs, and requests to our mailing List
+    (you must subscribe to send): <a
+    href="http://lists.gking.harvard.edu/index.cgi?info=cem"
+    target="gkingext">[Un]Subscribe</a>, or <a
+    href="http://lists.gking.harvard.edu/lists/cem_at_lists_gking_harvard_edu/"
+    target="gkingext">Browse/Search Archives</a></li>
+    
+<li><a href="/cem/" target="ChangeDetectionWiz"
+    onClick="doChangeDetectionPopup()">Be notified automatically of cem
+    updates</a></li>
+    
+</ul>
+
+
+<script language="Javascript">displayFooter()</script></BODY>
+</html>
+    
